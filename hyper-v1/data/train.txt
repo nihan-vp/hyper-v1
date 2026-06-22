@@ -1,0 +1,1496 @@
+User: Who are you?
+Assistant: I am Hyper-V1, an AI assistant created by Nihan Ali VP.
+
+User: Who created you?
+Assistant: I was created by Nihan Ali VP.
+
+User: What is your name?
+Assistant: My name is Hyper-V1.
+
+User: Who is Nihan Ali VP?
+Assistant: Nihan Ali VP is the creator of the Hyper-V1 AI assistant.
+
+User: Tell me about yourself.
+Assistant: I am Hyper-V1, an AI assistant created by Nihan Ali VP.
+
+User: Who built you?
+Assistant: Hyper-V1 was built by Nihan Ali VP.
+
+User: What is your model name?
+Assistant: I am Hyper-V1.
+
+User: Who is your developer?
+Assistant: My developer is Nihan Ali VP.
+
+User: Introduce yourself briefly.
+Assistant: I am Hyper-V1, an AI assistant created by Nihan Ali VP.
+
+User: Who designed your system?
+Assistant: Hyper-V1 was designed and created by Nihan Ali VP.
+
+User: Create Laravel login route
+Assistant: Route::post('/login', [AuthController::class, 'login']);
+
+User: Explain ERP stock management
+Assistant: Stock management tracks products, quantity, purchase, sales, and low stock alerts.
+
+User: Create invoice table in SQL
+Assistant: CREATE TABLE invoices (id INT PRIMARY KEY AUTO_INCREMENT, customer_name VARCHAR(255), total DECIMAL(10,2));
+
+User: Run Laravel migrations
+Assistant: php artisan migrate
+
+User: Center a div with CSS Flexbox
+Assistant: display: flex; justify-content: center; align-items: center;
+
+User: Create a Git commit
+Assistant: git commit -m "your message"
+
+User: Define a REST API
+Assistant: An architectural style for designing networked applications using HTTP methods.
+
+User: Declare a constant in JavaScript
+Assistant: const MY_CONST = 'value';
+
+User: Read a file in Python
+Assistant: with open('file.txt', 'r') as f: data = f.read()
+
+User: What is a Docker container?
+Assistant: A lightweight, standalone package containing software and all its dependencies.
+
+User: Delete SQL table
+Assistant: DROP TABLE table_name;
+
+User: Initialize Git repository
+Assistant: git init
+
+User: Define MVC pattern
+Assistant: Software design pattern dividing applications into Model, View, and Controller.
+
+User: Create virtual environment in Python
+Assistant: python -m venv env
+
+User: Check Node.js version
+Assistant: node -v
+
+User: Select all from users table where age > 18
+Assistant: SELECT * FROM users WHERE age > 18;
+
+User: Add class to HTML element in JS
+Assistant: element.classList.add('className');
+
+User: Install package via npm
+Assistant: npm install package-name
+
+User: What is an index in SQL?
+Assistant: A database structure that improves the speed of data retrieval operations.
+
+User: Print output in Python
+Assistant: print("Hello World")
+
+User: Merge git branches
+Assistant: git merge branch_name
+
+User: Create Laravel controller
+Assistant: php artisan make:controller ControllerName
+
+User: Define responsive web design
+Assistant: Designing websites to provide optimal viewing across various devices and screens.
+
+User: Convert string to integer in JS
+Assistant: parseInt(string)
+
+User: Fetch API in JavaScript
+Assistant: fetch(url).then(res => res.json()).then(data => console.log(data));
+
+User: Get length of list in Python
+Assistant: len(my_list)
+
+User: What is MongoDB?
+Assistant: A NoSQL, document-oriented database that stores data in JSON-like format.
+
+User: Center a div with CSS Grid
+Assistant: display: grid; place-items: center;
+
+User: Run development server in React
+Assistant: npm start
+
+User: Create table users in SQL
+Assistant: CREATE TABLE users (id INT PRIMARY KEY AUTO_INCREMENT, email VARCHAR(255));
+
+User: Define CORS
+Assistant: A security mechanism restricting cross-origin HTTP requests initiated from browsers.
+
+User: Generate random number in Python
+Assistant: import random; random.random()
+
+User: Update Git submodules
+Assistant: git submodule update --init --recursive
+
+User: Define JWT
+Assistant: JSON Web Token is a compact, URL-safe means of representing claims.
+
+User: Add column to SQL table
+Assistant: ALTER TABLE table_name ADD column_name datatype;
+
+User: Remove item from array in JS
+Assistant: array.filter(item => item !== targetValue);
+
+User: Create Laravel model with migration
+Assistant: php artisan make:model ModelName -m
+
+User: Revert last Git commit
+Assistant: git reset --soft HEAD~1
+
+User: Define polymorphism in OOP
+Assistant: The ability of different classes to respond to the same message.
+
+User: Find element by ID in JS
+Assistant: document.getElementById('id')
+
+User: Write basic CSS transition
+Assistant: transition: all 0.3s ease;
+
+User: Get keys of a Python dictionary
+Assistant: my_dict.keys()
+
+User: What is Redis?
+Assistant: An in-memory data structure store used as a database, cache, and message broker.
+
+User: Create Laravel middleware
+Assistant: php artisan make:middleware MiddlewareName
+
+User: Define a database foreign key
+Assistant: A column pointing to the primary key of another table to link them.
+
+User: Clone a Git repository
+Assistant: git clone repo_url
+
+User: Check running Docker containers
+Assistant: docker ps
+
+User: Check type of variable in Python
+Assistant: type(variable)
+
+User: Convert JS object to JSON
+Assistant: JSON.stringify(object)
+
+User: Define DNS
+Assistant: Domain Name System translates human-readable domain names to IP addresses.
+
+User: Create React state hook
+Assistant: const [state, setState] = useState(initialValue);
+
+User: Drop database in SQL
+Assistant: DROP DATABASE db_name;
+
+User: Start Apache in Ubuntu
+Assistant: sudo systemctl start apache2
+
+User: Define SaaS
+Assistant: Software as a Service delivers applications over the internet as a subscription.
+
+User: Define continuous integration
+Assistant: Automatically building, testing, and merging code changes into a shared repository.
+
+User: Check git commit history
+Assistant: git log
+
+User: Append to array in Python
+Assistant: list.append(item)
+
+User: Create a Laravel route group
+Assistant: Route::middleware(['auth'])->group(function () { ... });
+
+User: Define CSS Box Model
+Assistant: The layout structure comprising content, padding, border, and margin of elements.
+
+User: Make HTTP POST request in Python
+Assistant: import requests; requests.post(url, json=data)
+
+User: SQL query for unique values
+Assistant: SELECT DISTINCT column_name FROM table_name;
+
+User: Set local storage item in JS
+Assistant: localStorage.setItem('key', 'value');
+
+User: Delete Docker container
+Assistant: docker rm container_id
+
+User: Write multi-line comment in Python
+Assistant: """ This is a comment """
+
+User: Define API Gateway
+Assistant: A server acting as an entry point to route requests to microservices.
+
+User: Create Laravel validation rule
+Assistant: $request->validate(['email' => 'required|email|unique:users']);
+
+User: Set background color in CSS
+Assistant: background-color: #ffffff;
+
+User: Check port usage on Linux
+Assistant: sudo lsof -i :port_number
+
+User: Count rows in SQL table
+Assistant: SELECT COUNT(*) FROM table_name;
+
+User: Filter array in JS
+Assistant: array.filter(item => item.active);
+
+User: Create a new Git branch
+Assistant: git checkout -b branch_name
+
+User: Define software design patterns
+Assistant: Reusable solutions to commonly occurring problems in software design.
+
+User: Create Python dictionary
+Assistant: my_dict = {'key': 'value'}
+
+User: Write SQL JOIN query
+Assistant: SELECT * FROM t1 JOIN t2 ON t1.id = t2.t1_id;
+
+User: Create a React context
+Assistant: const MyContext = React.createContext(defaultValue);
+
+User: Explain inheritance in OOP
+Assistant: A mechanism where a new class inherits properties and behaviors from an existing class.
+
+User: Create Laravel event listener
+Assistant: php artisan make:listener ListenerName --event=EventName
+
+User: Set cookies in JS
+Assistant: document.cookie = "username=John";
+
+User: Run a bash script
+Assistant: ./script.sh
+
+User: Clear screen in terminal
+Assistant: clear
+
+User: Check Python list index
+Assistant: list.index(element)
+
+User: Define microservices
+Assistant: An architectural style structuring an application as a collection of loosely coupled services.
+
+User: Stop Docker container
+Assistant: docker stop container_id
+
+User: Define SQL transaction
+Assistant: A sequence of operations performed as a single logical unit of work.
+
+User: Find length of string in JS
+Assistant: string.length
+
+User: Select specific columns in SQL
+Assistant: SELECT col1, col2 FROM table_name;
+
+User: Set CSS font size
+Assistant: font-size: 16px;
+
+User: Create Laravel database seeder
+Assistant: php artisan make:seeder SeederName
+
+User: Replace text in Python string
+Assistant: string.replace('old', 'new')
+
+User: Pull latest changes in Git
+Assistant: git pull origin branch_name
+
+User: Add border in CSS
+Assistant: border: 1px solid #000000;
+
+User: Drop column in SQL
+Assistant: ALTER TABLE table_name DROP COLUMN column_name;
+
+User: Initialize npm project
+Assistant: npm init -y
+
+User: Run script in package.json
+Assistant: npm run script-name
+
+User: Define API endpoint in Express
+Assistant: app.get('/api', (req, res) => res.send('API Response'));
+
+User: Get absolute value in Python
+Assistant: abs(number)
+
+User: Create SQL view
+Assistant: CREATE VIEW view_name AS SELECT * FROM table_name;
+
+User: Write file in Node.js
+Assistant: fs.writeFileSync('file.txt', 'data');
+
+User: What is git rebase?
+Assistant: Reapplies commits on top of another base tip to maintain a linear history.
+
+User: Check if array has element in Python
+Assistant: item in my_list
+
+User: Remove Git remote
+Assistant: git remote remove origin
+
+User: Check Python version
+Assistant: python --version
+
+User: Print working directory in Linux
+Assistant: pwd
+
+User: Set HTML font style in CSS
+Assistant: font-family: 'Arial', sans-serif;
+
+User: Define SQL NULL value
+Assistant: Represents a missing, unknown, or non-applicable data value.
+
+User: Change directory in terminal
+Assistant: cd path/to/directory
+
+User: Define API rate limiting
+Assistant: Limiting the number of requests a user can make to an API in a given timeframe.
+
+User: Create React class component
+Assistant: class MyComp extends React.Component { render() { return <div>Hello</div>; } }
+
+User: Define a database index
+Assistant: A structure that speeds up query retrieval at the cost of slower writes.
+
+User: Print elements of list in JS
+Assistant: array.forEach(item => console.log(item));
+
+User: Delete Laravel session
+Assistant: session()->forget('key');
+
+User: Find string length in Python
+Assistant: len(string)
+
+User: Copy file in Linux
+Assistant: cp source.txt destination.txt
+
+User: Define Dockerfile
+Assistant: A text document containing commands to assemble a Docker container image.
+
+User: Declare variable in PHP
+Assistant: $variable_name = "value";
+
+User: Create SQLite database
+Assistant: sqlite3 database_name.db
+
+User: What is the purpose of git fetch?
+Assistant: Downloads commits, files, and refs from a remote repository without merging them.
+
+User: Hide scrollbar in CSS
+Assistant: overflow: hidden;
+
+User: Remove item from Python dictionary
+Assistant: del my_dict['key']
+
+User: Convert JS string to number
+Assistant: Number(string)
+
+User: Make directory in terminal
+Assistant: mkdir folder_name
+
+User: What is JWT verification?
+Assistant: Checking a token's signature using a secret key to validate its authenticity.
+
+User: Set box sizing to border-box
+Assistant: box-sizing: border-box;
+
+User: Run database seed in Laravel
+Assistant: php artisan db:seed
+
+User: Explain Docker volume
+Assistant: A mechanism to persist data generated by and used by Docker containers.
+
+User: Concatenate strings in PHP
+Assistant: $str3 = $str1 . $str2;
+
+User: Define microservices architecture
+Assistant: Designing an application as a suite of small, independently deployable services.
+
+User: Check listening ports in Linux
+Assistant: netstat -tuln
+
+User: Get type of variable in JS
+Assistant: typeof variable
+
+User: Run Laravel queue worker
+Assistant: php artisan queue:work
+
+User: Concatenate lists in Python
+Assistant: list1 + list2
+
+User: Parse XML in Python
+Assistant: import xml.etree.ElementTree as ET; tree = ET.parse('file.xml')
+
+User: Align items vertically in CSS Flexbox
+Assistant: align-items: center;
+
+User: Delete file in Linux
+Assistant: rm file.txt
+
+User: Fetch git branch updates
+Assistant: git fetch origin
+
+User: Create JSON object in JS
+Assistant: const obj = { key: "value" };
+
+User: What is database normalization?
+Assistant: Organizing database tables to minimize data redundancy and dependency.
+
+User: Define SQL primary key
+Assistant: A column or set of columns uniquely identifying each row in a table.
+
+User: Check Python module installation
+Assistant: pip show module_name
+
+User: Define asynchronous programming
+Assistant: A programming paradigm where tasks execute independently of the main application thread.
+
+User: Add padding in CSS
+Assistant: padding: 10px;
+
+User: Show Git branch list
+Assistant: git branch
+
+User: Get environmental variables in Node.js
+Assistant: process.env.VAR_NAME
+
+User: Add index constraint in SQL
+Assistant: CREATE UNIQUE INDEX idx_name ON table(column);
+
+User: Generate UUID in Python
+Assistant: import uuid; uuid.uuid4()
+
+User: Define a firewall
+Assistant: A network security system that monitors and controls incoming and outgoing traffic.
+
+User: Make absolute URL in Laravel
+Assistant: url('/path')
+
+User: Make text italic in CSS
+Assistant: font-style: italic;
+
+User: Format number to currency in JS
+Assistant: number.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
+
+User: Explain basic caching
+Assistant: Storing copies of data in a temporary storage location for faster future access.
+
+User: Delete git remote branch
+Assistant: git push origin --delete branch_name
+
+User: Set text color in CSS
+Assistant: color: #333333;
+
+User: Delete directory in Linux
+Assistant: rmdir folder_name
+
+User: What is the standard HTTP port?
+Assistant: Port 80.
+
+User: What is the standard HTTPS port?
+Assistant: Port 443.
+
+User: What is a cookie?
+Assistant: A small piece of data stored on the user's computer by the web browser.
+
+User: Find average in SQL
+Assistant: SELECT AVG(column_name) FROM table_name;
+
+User: Format string in Python
+Assistant: f"Hello {name}"
+
+User: Set session lifetime in Laravel
+Assistant: Configured inside config/session.php ('lifetime' key).
+
+User: Define SQL trigger
+Assistant: A database object that automatically runs in response to certain events on a table.
+
+User: Merge objects in JS
+Assistant: const merged = { ...obj1, ...obj2 };
+
+User: Clear npm cache
+Assistant: npm cache clean --force
+
+User: Import module in Python
+Assistant: import module_name
+
+User: Define responsive images in CSS
+Assistant: max-width: 100%; height: auto;
+
+User: What is standard SSH port?
+Assistant: Port 22.
+
+User: Check disk usage in Linux
+Assistant: du -sh folder_name
+
+User: Update pip in Python
+Assistant: python -m pip install --upgrade pip
+
+User: Setup git global username
+Assistant: git config --global user.name "Your Name"
+
+User: What is a reverse proxy?
+Assistant: A server that forwards client requests to web servers, handling security and load.
+
+User: Define IP subnetting
+Assistant: Dividing a single physical network into smaller logical sub-networks.
+
+User: CSS flex direction row
+Assistant: flex-direction: row;
+
+User: Send text response in Node.js Express
+Assistant: res.send('Response text');
+
+User: Check git commit author
+Assistant: git log -1 --format="%an"
+
+User: Check active processes in Linux
+Assistant: top
+
+User: Find current working directory in Bash
+Assistant: pwd
+
+User: Define SQL transaction rollback
+Assistant: Reverting database changes made during the current transaction.
+
+User: Convert string to uppercase in JS
+Assistant: string.toUpperCase();
+
+User: Write basic HTML boilerplate
+Assistant: <!DOCTYPE html><html><head><title>Title</title></head><body></body></html>
+
+User: Run tests in Node.js
+Assistant: npm test
+
+User: Check pip version
+Assistant: pip --version
+
+User: Delete Docker image
+Assistant: docker rmi image_id
+
+User: Get item from Laravel array helper
+Assistant: Arr::get($array, 'key');
+
+User: Check current logged in user in Linux
+Assistant: whoami
+
+User: Create database backup in MySQL
+Assistant: mysqldump -u username -p database_name > backup.sql
+
+User: Define software framework
+Assistant: A platform for developing software applications, providing standard structures and tools.
+
+User: CSS clear floats
+Assistant: clear: both;
+
+User: Round float to 2 decimals in Python
+Assistant: round(value, 2)
+
+User: Define semantic HTML
+Assistant: Using HTML markup to reinforce the semantics or meaning of the information.
+
+User: Set HTML localstorage key in JS
+Assistant: localStorage.setItem('key', 'value');
+
+User: What is git stash pop?
+Assistant: Restores the most recently stashed changes and removes them from the stash list.
+
+User: Center block element in CSS
+Assistant: margin: 0 auto;
+
+User: Convert string to lowercase in Python
+Assistant: string.lower()
+
+User: Install Composer dependencies
+Assistant: composer install
+
+User: SQL query to group and count
+Assistant: SELECT column, COUNT(*) FROM table GROUP BY column;
+
+User: What is HTTP status 404?
+Assistant: The server cannot find the requested resource.
+
+User: Reset Git branch to remote state
+Assistant: git reset --hard origin/branch_name
+
+User: Read JSON file in Node.js
+Assistant: const data = JSON.parse(fs.readFileSync('file.json'));
+
+User: Convert string to lowercase in JS
+Assistant: string.toLowerCase();
+
+User: What is an API?
+Assistant: Application Programming Interface; a set of rules allowing different systems to communicate.
+
+User: Remove empty spaces from Python string
+Assistant: string.strip()
+
+User: Print current date in PHP
+Assistant: echo date('Y-m-d');
+
+User: Define CSS grid template columns
+Assistant: grid-template-columns: repeat(3, 1fr);
+
+User: Check git remote URLs
+Assistant: git remote -v
+
+User: Create temporary table in SQL
+Assistant: CREATE TEMPORARY TABLE temp_table (id INT, value VARCHAR(50));
+
+User: Install package globally via npm
+Assistant: npm install -g package-name
+
+User: Convert Python list to string
+Assistant: ', '.join(my_list)
+
+User: Create HTML anchor link
+Assistant: <a href="https://example.com">Link Text</a>
+
+User: What is virtual DOM in React?
+Assistant: A programming concept where an ideal representation of a UI is kept in memory and synced with the real DOM.
+
+User: Check disk space in Linux
+Assistant: df -h
+
+User: Run migrations in Laravel
+Assistant: php artisan migrate
+
+User: Define database index cardinalities
+Assistant: The uniqueness of data values contained in a single database table column.
+
+User: Set HTML input placeholder in CSS
+Assistant: input::placeholder { color: #888888; }
+
+User: What is HTTP status 500?
+Assistant: Internal Server Error; a generic error message indicating the server encountered an unexpected condition.
+
+User: Parse standard URL in Python
+Assistant: from urllib.parse import urlparse; urlparse(url)
+
+User: Generate app key in Laravel
+Assistant: php artisan key:generate
+
+User: Remove duplicate elements from JS array
+Assistant: [...new Set(array)];
+
+User: Define CSS pseudo-class hover
+Assistant: selector:hover { property: value; }
+
+User: Write SQL subquery
+Assistant: SELECT * FROM t1 WHERE col IN (SELECT col FROM t2);
+
+User: Extract keys from JS object
+Assistant: Object.keys(obj);
+
+User: Clone a Git branch directly
+Assistant: git clone -b branch_name repo_url
+
+User: Get current timestamp in PHP
+Assistant: time();
+
+User: What is DNS caching?
+Assistant: Temporary storage of information about previous DNS lookups on a web browser or operating system.
+
+User: Create route wildcard in Express
+Assistant: app.get('/user/:id', (req, res) => res.send(req.params.id));
+
+User: Round number to nearest integer in JS
+Assistant: Math.round(number);
+
+User: Create a custom error in Python
+Assistant: class CustomError(Exception): pass
+
+User: Set text alignment to center in CSS
+Assistant: text-align: center;
+
+User: Remove local Git branch
+Assistant: git branch -d branch_name
+
+User: What is standard Redis port?
+Assistant: Port 6379.
+
+User: Find specific text in Linux files
+Assistant: grep -r "search_string" /path/to/folder
+
+User: Convert string to date in SQL
+Assistant: STR_TO_DATE(string_value, '%Y-%m-%d')
+
+User: Define CSS positions
+Assistant: static, relative, absolute, fixed, and sticky.
+
+User: Run Laravel config cache
+Assistant: php artisan config:cache
+
+User: Convert Python dictionary to JSON string
+Assistant: import json; json.dumps(my_dict)
+
+User: Create basic React functional component
+Assistant: function MyComp() { return <div>Hello</div>; }
+
+User: Check npm outdated packages
+Assistant: npm outdated
+
+User: Create multi-line comment in JS
+Assistant: /* This is a comment */
+
+User: What is HTTP status 301?
+Assistant: Moved Permanently; the requested resource has been assigned a new permanent URI.
+
+User: Get array length in PHP
+Assistant: count($array);
+
+User: Check free memory in Linux
+Assistant: free -h
+
+User: Remove trailing slash from URL in PHP
+Assistant: rtrim($url, '/');
+
+User: Make text bold in CSS
+Assistant: font-weight: bold;
+
+User: Check git commit author history
+Assistant: git shortlog -sn
+
+User: Run background job in Linux
+Assistant: command &
+
+User: Update npm package
+Assistant: npm update package-name
+
+User: Define software payload
+Assistant: The essential data being transmitted in a packet or network request.
+
+User: Join arrays in JS
+Assistant: array1.concat(array2);
+
+User: Write simple SQL update query
+Assistant: UPDATE table_name SET col1 = val1 WHERE id = 1;
+
+User: Generate secure password hash in PHP
+Assistant: password_hash($password, PASSWORD_BCRYPT);
+
+User: Add key value to PHP array
+Assistant: $array['key'] = 'value';
+
+User: Check Python path variable
+Assistant: import sys; print(sys.path)
+
+User: Change file permissions in Linux
+Assistant: chmod 755 filename
+
+User: Check Node.js memory usage
+Assistant: process.memoryUsage()
+
+User: What is standard MySQL port?
+Assistant: Port 3306.
+
+User: Define CSS z-index
+Assistant: Specifies the stack order of an element along the z-axis.
+
+User: Create Python list comprehension
+Assistant: [x * 2 for x in my_list]
+
+User: Show SQL active connections
+Assistant: SHOW PROCESSLIST;
+
+User: Empty a text file in Linux
+Assistant: > filename.txt
+
+User: Define dry run in Git
+Assistant: Performing an action without actually committing the changes (e.g., git clean -n).
+
+User: Make Laravel custom validation message
+Assistant: Defined within the messages() method of a Form Request class.
+
+User: Create border-radius in CSS
+Assistant: border-radius: 5px;
+
+User: Check Python module location
+Assistant: import module_name; print(module_name.__file__)
+
+User: What is HTTP status 401?
+Assistant: Unauthorized; client authentication credentials are missing or invalid.
+
+User: Check git status
+Assistant: git status
+
+User: Select column aliases in SQL
+Assistant: SELECT column_name AS alias_name FROM table_name;
+
+User: What is absolute path?
+Assistant: A path pointing to the same location regardless of the current working directory.
+
+User: Add element to JS array end
+Assistant: array.push(element);
+
+User: Use env helper in Laravel config
+Assistant: env('KEY_NAME', 'default_value')
+
+User: Get Python absolute execution path
+Assistant: import os; os.path.abspath(__file__)
+
+User: CSS display none vs hidden
+Assistant: display:none removes the element from the layout; visibility:hidden hides it but preserves its space.
+
+User: Find process ID by name in Linux
+Assistant: pgrep process_name
+
+User: Convert float to integer in Python
+Assistant: int(float_value)
+
+User: Setup git global email
+Assistant: git config --global user.email "email@example.com"
+
+User: Define database migration rollback
+Assistant: Undoing database changes to revert schemas to a previous state.
+
+User: Check docker-compose logs
+Assistant: docker-compose logs
+
+User: Delete entry from JS Map
+Assistant: myMap.delete(key);
+
+User: Get file extension in Python
+Assistant: import os; os.path.splitext(filename)[1]
+
+User: Print statement in Bash
+Assistant: echo "message"
+
+User: Write basic SQL deletion query
+Assistant: DELETE FROM table_name WHERE condition;
+
+User: Select distinct combinations in SQL
+Assistant: SELECT DISTINCT col1, col2 FROM table;
+
+User: Check curl response header
+Assistant: curl -I url
+
+User: Define micro-frontend architecture
+Assistant: An architectural style where a frontend application is split into micro, independent apps.
+
+User: Find specific index in JS array
+Assistant: array.indexOf(element);
+
+User: Change user password in Linux
+Assistant: passwd username
+
+User: What is local path?
+Assistant: A directory path relative to the current active working directory.
+
+User: Set CSS padding horizontal
+Assistant: padding-left: 10px; padding-right: 10px;
+
+User: Define RESTful state transfer
+Assistant: An architectural pattern relying on stateless, client-server, cacheable communications.
+
+User: Find active network ports on macOS
+Assistant: sudo lsof -iTCP -sTCP:LISTEN
+
+User: Define database ACID properties
+Assistant: Atomicity, Consistency, Isolation, and Durability ensure reliable transaction processing.
+
+User: Set text transform uppercase in CSS
+Assistant: text-transform: uppercase;
+
+User: What is git stash list?
+Assistant: Lists the staved modifications stored in the repository.
+
+User: Set element opacity in CSS
+Assistant: opacity: 0.5;
+
+User: Calculate square root in Python
+Assistant: import math; math.sqrt(number)
+
+User: Create a tag in Git
+Assistant: git tag -a v1.0.0 -m "Version 1.0.0"
+
+User: Extract portion of array in JS
+Assistant: array.slice(startIndex, endIndex);
+
+User: SQL query using HAVING clause
+Assistant: SELECT col, COUNT(*) FROM table GROUP BY col HAVING COUNT(*) > 5;
+
+User: What is HTTP status 403?
+Assistant: Forbidden; the server understands the request but refuses to authorize it.
+
+User: Define Laravel route with parameter
+Assistant: Route::get('/user/{id}', [UserController::class, 'show']);
+
+User: Terminate process by ID in Linux
+Assistant: kill -9 process_id
+
+User: Run Docker container mapping ports
+Assistant: docker run -p 8080:80 image_name
+
+User: Join paths in Node.js
+Assistant: path.join(__dirname, 'folder', 'file.txt');
+
+User: Convert string to floating-point number in Python
+Assistant: float(string)
+
+User: Center text in CSS Grid
+Assistant: display: grid; align-items: center; justify-content: center;
+
+User: SQL query to find second highest value
+Assistant: SELECT MAX(column_name) FROM table_name WHERE column_name < (SELECT MAX(column_name) FROM table_name);
+
+User: Create React functional component with props
+Assistant: const Comp = ({ name }) => <div>Hello {name}</div>;
+
+User: Fetch HTML element by class name in JS
+Assistant: document.querySelector('.class-name')
+
+User: Clear all items in JS local storage
+Assistant: localStorage.clear();
+
+User: Check git branch merge status
+Assistant: git branch --merged
+
+User: Install package and save as development dependency
+Assistant: npm install package-name --save-dev
+
+User: Define CSS pseudo-element before
+Assistant: selector::before { content: "text"; }
+
+User: Replace substring in JS
+Assistant: string.replace('old', 'new');
+
+User: Define SQL foreign key constraint
+Assistant: FOREIGN KEY (col_name) REFERENCES parent_table(parent_id)
+
+User: Delete Git local tag
+Assistant: git tag -d tag_name
+
+User: Define server-side rendering (SSR)
+Assistant: Rendering web pages on the server instead of the client browser.
+
+User: Create directory recursively in Python
+Assistant: import os; os.makedirs('path/to/dir', exist_ok=True)
+
+User: Run Laravel queue listener
+Assistant: php artisan queue:listen
+
+User: Find file by name in Linux
+Assistant: find /path -name "filename.txt"
+
+User: Add element to JS array beginning
+Assistant: array.unshift(element);
+
+User: Check Python dict has key
+Assistant: 'key' in my_dict
+
+User: Define database indexing tradeoff
+Assistant: Speeds up data retrieval queries but slows down insert, update, and delete actions.
+
+User: CSS border style dashed
+Assistant: border-style: dashed;
+
+User: Set session timeout in PHP
+Assistant: ini_set('session.gc_maxlifetime', 3600);
+
+User: Check open ports on target host
+Assistant: nmap host_name
+
+User: Import JSON in Python
+Assistant: import json; data = json.load(file_object)
+
+User: Run SQL query with limit and offset
+Assistant: SELECT * FROM table LIMIT 10 OFFSET 20;
+
+User: Remove empty items from PHP array
+Assistant: array_filter($array);
+
+User: Redirect request in Express Node.js
+Assistant: res.redirect('/new-url');
+
+User: Set HTML content of element in JS
+Assistant: element.innerHTML = '<p>Content</p>';
+
+User: Explain Docker Compose up detached mode
+Assistant: docker-compose up -d
+
+User: Check list of installed python packages
+Assistant: pip list
+
+User: Center image inside div using CSS
+Assistant: img { display: block; margin: 0 auto; }
+
+User: Define software payload size
+Assistant: The total weight or volume of actual user-intended data bytes in a transmission.
+
+User: Merge list items into string in Python
+Assistant: separator.join(list_name)
+
+User: Set responsive layout breakpoint in CSS
+Assistant: @media (max-width: 768px) { ... }
+
+User: Get current working directory in Node.js
+Assistant: process.cwd();
+
+User: Initialize Laravel project via Composer
+Assistant: composer create-project laravel/laravel project-name
+
+User: Delete cookies in JS
+Assistant: document.cookie = "username=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+
+User: Get list size in Java
+Assistant: list.size();
+
+User: Create blank file in Linux
+Assistant: touch file.txt
+
+User: Update column with math in SQL
+Assistant: UPDATE table_name SET col = col + 1 WHERE id = 1;
+
+User: Define database trigger event types
+Assistant: BEFORE or AFTER operations like INSERT, UPDATE, or DELETE.
+
+User: What is Git stash pop vs apply?
+Assistant: Pop applies and deletes the stash entry; apply applies and retains it in the list.
+
+User: Find absolute path of command in Linux
+Assistant: which command_name
+
+User: Define CSS inherit value
+Assistant: Forces an element property to take the same computed value as its parent.
+
+User: SQL query to select null values
+Assistant: SELECT * FROM table WHERE column IS NULL;
+
+User: Create React input ref
+Assistant: const inputRef = useRef(null);
+
+User: Check system kernel version in Linux
+Assistant: uname -r
+
+User: Add hours to current date in JS
+Assistant: date.setHours(date.getHours() + hours);
+
+User: Import local module in Node.js
+Assistant: const myModule = require('./myModule');
+
+User: Convert string to list of characters in Python
+Assistant: list(string)
+
+User: Show docker container resource stats
+Assistant: docker stats
+
+User: Define standard PostgreSQL port
+Assistant: Port 5432.
+
+User: Set outline to none in CSS
+Assistant: outline: none;
+
+User: Check Laravel framework version
+Assistant: php artisan --version
+
+User: Find maximum value of Python list
+Assistant: max(my_list)
+
+User: What is HTTP status 400?
+Assistant: Bad Request; the server cannot process the request due to a client-side error.
+
+User: Run Git garbage collector
+Assistant: git gc
+
+User: Create custom helper in Laravel
+Assistant: Define custom functions in a file, then load it in composer.json under autoload/files.
+
+User: Drop SQL database
+Assistant: DROP DATABASE database_name;
+
+User: Define CSS grid auto rows
+Assistant: grid-auto-rows: minmax(100px, auto);
+
+User: Get query parameters in Express
+Assistant: req.query.parameter_name
+
+User: Change file ownership in Linux
+Assistant: chown owner_name filename
+
+User: Parse query string to object in JS
+Assistant: Object.fromEntries(new URLSearchParams(window.location.search))
+
+User: Run code after DOM is loaded in JS
+Assistant: document.addEventListener('DOMContentLoaded', () => { ... });
+
+User: What is a deadlock in databases?
+Assistant: A state where two or more transactions are blocked waiting for each other to release locks.
+
+User: Delete local git branch by force
+Assistant: git branch -D branch_name
+
+User: Select column matching lists in SQL
+Assistant: SELECT * FROM table WHERE column IN (val1, val2, val3);
+
+User: Import CSV file in Python
+Assistant: import csv; reader = csv.reader(file)
+
+User: Run database migrations in Express / Knex
+Assistant: npx knex migrate:latest
+
+User: Set CSS transition delay
+Assistant: transition-delay: 0.5s;
+
+User: Check open files limit in Linux
+Assistant: ulimit -n
+
+User: What is CORS origin value?
+Assistant: Specifies which origins are allowed to access server resources via HTTP headers.
+
+User: Create symlink in Linux
+Assistant: ln -s target_path link_path
+
+User: Convert XML to JSON in Python
+Assistant: Using xmltodict module: xmltodict.parse(xml_string)
+
+User: Delete Laravel config cache
+Assistant: php artisan config:clear
+
+User: Get user agent in PHP
+Assistant: $_SERVER['HTTP_USER_AGENT'];
+
+User: Set flex grow value in CSS
+Assistant: flex-grow: 1;
+
+User: Get index of substring in Python
+Assistant: string.find('substring')
+
+User: Select last inserted ID in SQL
+Assistant: SELECT LAST_INSERT_ID();
+
+User: Use session in Laravel controller
+Assistant: $request->session()->put('key', 'value');
+
+User: What is CSS pseudo-element after?
+Assistant: selector::after { content: "text"; }
+
+User: Show all tables in MySQL
+Assistant: SHOW TABLES;
+
+User: Extract list indices in Python
+Assistant: [i for i, x in enumerate(my_list) if x == target]
+
+User: Run development server in Django
+Assistant: python manage.py runserver
+
+User: Format string date to PHP object
+Assistant: DateTime::createFromFormat('Y-m-d', $dateString);
+
+User: Use environment variables in Python
+Assistant: import os; os.environ.get('VARIABLE_NAME')
+
+User: Center flexbox items vertically
+Assistant: align-items: center;
+
+User: Check git config values
+Assistant: git config --list
+
+User: Find unique rows in PostgreSQL
+Assistant: SELECT DISTINCT ON (column_name) * FROM table_name;
+
+User: Install composer packages recursively
+Assistant: composer install --prefer-dist --no-dev
+
+User: Set list bullet style to none in CSS
+Assistant: list-style-type: none;
+
+User: Handle exceptions in Python
+Assistant: try: action() except Exception as e: print(e)
+
+User: Apply a specific commit from another branch in Git
+Assistant: git cherry-pick commit_hash
+
+User: Selectively filter array elements in JS
+Assistant: const filtered = array.filter(item => item.isValid);
+
+User: Concatenate group values into a single string in SQL
+Assistant: SELECT GROUP_CONCAT(column_name) FROM table_name;
+
+User: What is HTTP status 405?
+Assistant: Method Not Allowed; the request method is known by the server but has been disabled.
+
+User: Create named route in Laravel
+Assistant: Route::get('/profile', [UserController::class, 'show'])->name('profile');
+
+User: Find files larger than 100MB in Linux
+Assistant: find / -type f -size +100M
+
+User: Display detailed metadata of Docker object
+Assistant: docker inspect container_or_image_id
+
+User: Set default environment variable in Node.js
+Assistant: const port = process.env.PORT || 3000;
+
+User: Round float up to nearest integer in Python
+Assistant: import math; math.ceil(value)
+
+User: Create grid gap in CSS
+Assistant: gap: 20px;
+
+User: What is database indexing indexing cost?
+Assistant: Increased storage requirement and overhead during INSERT, UPDATE, and DELETE queries.
+
+User: Set default props in React
+Assistant: MyComponent.defaultProps = { name: 'Guest' };
+
+User: Check if class exists on element in JS
+Assistant: element.classList.contains('class-name');
+
+User: Get items count in standard JS Map
+Assistant: myMap.size;
+
+User: Force pull branch from Git to overwrite local changes
+Assistant: git fetch --all && git reset --hard origin/branch_name
+
+User: Install npm package globally with custom prefix
+Assistant: npm install -g package-name --prefix /path/to/directory
+
+User: Set input focus border color in CSS
+Assistant: input:focus { border-color: #007bff; }
+
+User: Replace all occurrences of substring in JS
+Assistant: string.replaceAll('old', 'new');
+
+User: Set cascade delete on SQL foreign key
+Assistant: FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+
+User: Delete Git remote tag
+Assistant: git push origin --delete tag_name
+
+User: Define client-side rendering (CSR)
+Assistant: Rendering web pages directly in the client browser using client-side JavaScript.
+
+User: Get filename from path in Python
+Assistant: import os; os.path.basename('/path/to/file.txt')
+
+User: Run Laravel task scheduler in background
+Assistant: * * * * * cd /path-to-your-project && php artisan schedule:run >> /dev/null 2>&1
+
+User: Find files modified in the last 24 hours in Linux
+Assistant: find /path -mtime -1
+
+User: Add element to start of JS array
+Assistant: array.unshift(element);
+
+User: Check if variable is integer in Python
+Assistant: isinstance(variable, int)
+
+User: Define optimistic locking in databases
+Assistant: A locking strategy assuming transactions rarely conflict, validating data integrity before committing.
+
+User: Set italic font style in CSS
+Assistant: font-style: italic;
+
+User: Initialize session in PHP
+Assistant: session_start();
+
+User: Scan active network hosts using ping
+Assistant: fping -g 192.168.1.0/24
+
+User: Load JSON from file in Python
+Assistant: import json; data = json.load(open('file.json'))
+
+User: SQL query to find average of column
+Assistant: SELECT AVG(column_name) FROM table_name;
+
+User: Merge two indexed arrays in PHP
+Assistant: array_merge($array1, $array2);
+
+User: Send custom status code in Express Node.js
+Assistant: res.status(400).send('Bad Request');
+
+User: Remove child element from parent in JS
+Assistant: parentElement.removeChild(childElement);
+
+User: Check Docker compose health status
+Assistant: docker-compose ps --services
+
+User: Search for package in pip
+Assistant: pip search search_query
+
+User: Center text vertically inside element in CSS
+Assistant: line-height: element_height;
+
+User: What is database sharding?
+Assistant: A partitioning technique that splits a database across multiple physical servers.
+
+User: Get character code at index in JS string
+Assistant: string.charCodeAt(index);
+
+User: Check CPU info in Linux
+Assistant: lscpu
+
+User: Initialize Laravel model factory instance
+Assistant: ModelName::factory()->make();
+
+User: Read environment variable with fallback in PHP
+Assistant: getenv('VARIABLE') ?: 'fallback_value';
+
+User: Check if Python string is purely digits
+Assistant: string.isdigit()
+
+User: SQL pattern search matching ending characters
+Assistant: SELECT * FROM table WHERE column LIKE '%ending';
+
+User: Remove git commit from log without losing changes
+Assistant: git reset --soft HEAD~1
+
+User: Define standard MongoDB port
+Assistant: Port 27017.
+
+User: Prevent user text selection on element in CSS
+Assistant: user-select: none;
+
+User: Create soft link to file in Linux
+Assistant: ln -s source_file link_name
+
+User: Convert list to dict in Python
+Assistant: dict(list_of_tuples)
+
+User: SQL drop primary key constraint
+Assistant: ALTER TABLE table_name DROP PRIMARY KEY;
+
+User: Remove margin collapses in CSS
+Assistant: Set overflow: auto; or display: flow-root; on the container.
+
+User: Find client IP address in Express
+Assistant: req.ip
+
+User: Print formatted string in Bash
+Assistant: printf "Format: %s\n" "string_value"
+
+User: Check space consumed by directories in Linux
+Assistant: du -sh *
+
+User: Define database pessimistic locking
+Assistant: A locking strategy where data is locked upon read, preventing conflicts by blocking other actions.
+
+User: Remove specific key from JS object
+Assistant: delete object.key;
+
+User: Fetch database connection status in Laravel
+Assistant: DB::connection()->getPdo();
+
+User: Append text to file in Python
+Assistant: with open('file.txt', 'a') as f: f.write('appended text')
+
+User: Check git branch divergence status
+Assistant: git status -sb
+
+User: What is HTTP status 422?
+Assistant: Unprocessable Entity; the server understands the content type, but cannot process the instructions.
+
+User: Drop dynamic table in SQL if exists
+Assistant: DROP TABLE IF EXISTS table_name;
+
+User: Create transition hover effect in CSS
+Assistant: transition: property_name 0.3s ease-in-out;
+
+User: Check open network connections in macOS
+Assistant: netstat -an
+
+User: Check if string contains substring in JS
+Assistant: string.includes('substring');
+
+User: Set standard font weight in CSS
+Assistant: font-weight: 400;
+
+User: Run migrations in Django
+Assistant: python manage.py migrate
+
+User: Define database referential integrity
+Assistant: Relational database rules ensuring that foreign key values always refer to valid primary keys.
+
+User: Remove remote branch tracking from local Git config
+Assistant: git remote prune origin
+
+User: What is a headless CMS?
+Assistant: A back-end-only content management system that makes content accessible via an API.
+
+User: SQL query to find minimum value
+Assistant: SELECT MIN(column_name) FROM table_name;
+
+User: Check Laravel environment configuration
+Assistant: php artisan env
+
+User: Check if path is directory in Python
+Assistant: import os; os.path.isdir('path')
+
+User: Define standard Memcached port
+Assistant: Port 11211.
+
+User: Add custom header in Node.js Express response
+Assistant: res.set('Header-Name', 'value');
+
+User: Search and replace files in Linux
+Assistant: sed -i 's/old/new/g' filename
+
+User: Get current minute in JS
+Assistant: new Date().getMinutes();
+
+User: What is standard HTTP proxy port?
+Assistant: Port 8080.
+
+User: Set list style positions inside in CSS
+Assistant: list-style-position: inside;
+
+User: Find process running on port in Windows CMD
+Assistant: netstat -ano | findstr :port_number
+
+User: Extract file extension in PHP
+Assistant: pathinfo($filename, PATHINFO_EXTENSION);
+
+User: Update multiple columns in SQL
+Assistant: UPDATE table SET col1 = val1, col2 = val2 WHERE id = 1;
+
+User: Check Node.js process CPU usage
+Assistant: process.cpuUsage()
+
+User: Force recursive deletion of directory in Linux
+Assistant: rm -rf directory_name
+
+User: Check Git logs with visual tree graph
+Assistant: git log --graph --oneline --all
+
+User: Get element width including padding in JS
+Assistant: element.clientWidth;
+
+User: Write dynamic text to standard error in Python
+Assistant: import sys; sys.stderr.write('error message\n')
+
+User: Check memory allocation limits in PHP
+Assistant: ini_get('memory_limit');
+
+User: Check if Python variable is None
+Assistant: variable is None
+
+User: Run raw SQL statements in Laravel
+Assistant: DB::select('SELECT * FROM users WHERE active = ?', [1]);
+
+User: Define SQL compound index
+Assistant: An index built on multiple columns to speed up queries filtering on those specific fields.
+
+User: Check git config username
+Assistant: git config user.name
+
+User: Disable browser default submit behavior in JS
+Assistant: event.preventDefault();
+
+User: Remove white spaces from both sides in PHP
+Assistant: trim($string);
+
+User: Run interactive shell inside active Docker container
+Assistant: docker exec -it container_id /bin/sh
+
+User: What is database normalization 1NF?
+Assistant: Eliminating duplicate groups, ensuring columns contain atomic values, and identifying each row with a primary key.
+
+User: Set dynamic flexbox wrap in CSS
+Assistant: flex-wrap: wrap;
+
+User: Return custom JSON response in Laravel
+Assistant: return response()->json(['status' => 'success']);
